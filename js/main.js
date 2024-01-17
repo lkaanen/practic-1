@@ -13,16 +13,16 @@ var app = new Vue({
       variants: [
         {
           variantId: 2234,
-          variantColor: 'green'  
-          variantImage: 'https://www.vuemastery.com/images/challenges/vmSocks-green-onWhite.jpg'  
+          variantColor: 'green',
+          variantImage: '/assets/vmSocks-green-onWhite.jpg'  
         },
         {
           variantId: 2235,
-          variantColor: 'blue'
-          variantImage: 'https://www.vuemastery.com/images/challenges/vmSocks-blue-onWhite.jpg'
+          variantColor: 'blue',
+          variantImage: '/assets/vmSocks-blue-onWhite.jpg'
         }
       ],
-      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL']
+      sizes: ['S', 'M', 'L', 'XL', 'XXL', 'XXXL'],
       cart: 0
     },
     methods: {
